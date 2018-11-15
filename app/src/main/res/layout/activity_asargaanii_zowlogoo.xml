@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Хүүхэд асаргааны зөвлөгөө"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:gravity="center"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_background"
+            android:text="Нярайн асаргаа"
+            android:drawableRight="@drawable/ic_arrow_next"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_background"
+            android:text="Нярайн хооллолт"
+            android:drawableRight="@drawable/ic_arrow_next"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

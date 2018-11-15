@@ -1,16 +1,15 @@
 package com.example.xps.pregnancy;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class More_activity extends AppCompatActivity {
-
+public class HoyrSar_activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_more);
+        setContentView(R.layout.activity_hoyr_sartai_ve);
     }
 
     public void openHome(View v)
@@ -36,13 +35,13 @@ public class More_activity extends AppCompatActivity {
         Intent i = new Intent(getApplicationContext(), More_activity.class);
         startActivityForResult(i, 1);
     }
-
     public void openEej(View v)
     {
         Intent i = new Intent(getApplicationContext(), eej_activity.class);
         startActivityForResult(i, 1);
     }
-    public void openJiremsnii_ve(View v){
+    public void openJiremsnii_ve(View v)
+    {
         Intent i = new Intent(getApplicationContext(), JiremseniiVe_activity.class);
         startActivityForResult(i, 1);
     }

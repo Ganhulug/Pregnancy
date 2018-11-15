@@ -37,5 +37,62 @@ public class Home_activity extends AppCompatActivity {
         startActivityForResult(i, 1);
     }
 
+    public void openEej(View v){
+        Intent i = new Intent(getApplicationContext(), eej_activity.class);
+        startActivityForResult(i, 1);
+    }
+    public void openJiremsnii_ve(View v){
+        Intent i = new Intent(getApplicationContext(), JiremseniiVe_activity.class);
+        startActivityForResult(i, 1);
+    }
+    public void openTwoMonth(View v)
+    {
+        Intent i = new Intent(getApplicationContext(), HoyrSar_activity.class);
+        startActivityForResult(i, 1);
+    }
+    public void openFourMonth(View v)
+    {
+        Intent i = new Intent(getApplicationContext(), DorwonSar_activity.class);
+        startActivityForResult(i, 1);
+    }
 
+    public void openSevenMonth(View v)
+    {
+        Intent i = new Intent(getApplicationContext(), DoloonSar_activity.class);
+        startActivityForResult(i, 1);
+    }
+
+    public void openNinthMonth(View v){
+        Intent i = new Intent(getApplicationContext(), EsonSar_activity.class);
+        startActivityForResult(i, 1);
+    }
+    public void openOneAge(View v){
+        Intent i = new Intent(getApplicationContext(), NegNas_activity.class);
+        startActivityForResult(i, 1);
+    }
+    public void openAsargaa(View v)
+    {
+        Intent i = new Intent(getApplicationContext(), AsargaaniiZowlogoo_activity.class);
+        startActivityForResult(i, 1);
+    }
+    public void openTwoText(View v)
+    {
+        Intent i = new Intent(getApplicationContext(), Lesson1_activity.class);
+        startActivityForResult(i, 1);
+    }
+    public void openFourText(View v)
+    {
+        Intent i = new Intent(getApplicationContext(), FourText_activity.class);
+        startActivityForResult(i, 1);
+    }
+    public void openSevenText(View v)
+    {
+        Intent i = new Intent(getApplicationContext(), SevenText_activity.class);
+        startActivityForResult(i, 1);
+    }
+    public void openNineText(View v)
+    {
+        Intent i = new Intent(getApplicationContext(), NineText_activity.class);
+        startActivityForResult(i, 1);
+    }
 }

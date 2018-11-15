@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Бие бялдар"
+                android:textSize="18dp"
+                android:background="@color/colorAccent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Толгойгоо дааж эхэлнэ\n
+Толгойгоо даадаг болох ба босоо тэврэх үед ээж нь толгойг нь түшихгүй байсан үед ээж нь толгойг нь
+түшихгүй байсан ч гулжганахгүй, доош харуулж хэвтүүлсэн ч толгойгоо дааж өргөдөг болсон байна.\n
+Хуруугаа хөхөж эхэлнэ\n
+Шаржигнуур тоглоом бариулах хэсэг зуур барьж, амандаа ойртуулан долоодог болно. Өөрийнхөө гарыг ажиглан
+хардаг болно. Энэ үеэс эхлэн хүүхэд өөрийн биеийн хэсгүүдийг таньж эхэлдэг. Харсан зүйлээ авах гэсэн
+мэдрэмжээр нүд, гар, амныхаа хөдөлгөөнийг хөгжүүлдэг.
+"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Амьдралын хэв маяг"
+                android:textSize="18dp"
+                android:background="@color/colorAccent"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Хөхүүлэх хэмнэл тогтворжсон байна\n
+Хөхөө хөхөхдөө дасаж сайн хөхөж сурсан байна. Нэг удаагийн хөхөлтөөр хангалттай хөхөж чадахуйц болсон
+байна. Мөн цадахаа мэддэг болсон байна. Хөхөө хөхөж байхдаа дуу чимээ, хүний хөдөлгөөн, эргэн тойрныхоо
+өөрчлөлтөд хариу үзүүлж хөхөхөө болих, тоглонгоо хөхөх зэрэг зүйлс ажиглагдаж эхэлнэ."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сэтгэл санаа"
+                android:textSize="18dp"
+                android:background="@color/colorAccent"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сэтгэл хөдлөлөө илэрхийлдэг илэрхийлдэг болно.
+Дуу гаргаж инээдэг болно
+Өөрийн эргэн тойронд гарах чимээ болон хүний дуунд хариу үзүүлэхээ мэддэг болно. Эрхлүүлэхэд удаан
+ширтэж, баярлаж байгаагаа илэрхийлнэ. Нүүр царай төдийгүй гар хөлөө савчиж биенийхээ хөдөлгөөнөөр
+өөрийгөө илэрхийлж эхэлнэ. Толгойгоо даахын зэрэгцээ биеийн бүтэц өөрчлөгдөж, дууны өнгө ч өөрчлөгдөнө.
+Дуу гарган инээдэг болж, олон төрлөөр сэтгэл хөдлөлөө илэрхийлж сурдаг."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

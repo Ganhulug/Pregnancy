@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Бие бялдар"
+                android:textSize="18dp"
+                android:background="@color/colorAccent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Эргэж, өнхөрч эхэлнэ
+Дээшээ харан хөлөө өргөж, хөлөө барихаар оролддог байсан үеээс эхлэн эргэж эхэлнэ. Дээшээ харж байхдаа
+хажуу тийшээгээ эргэж чадах ч доошоо харж байхдаа буцаж эргэж сураагүй байна. Хэд хэдэн удаа давтсаны
+дараа сайн эргэж сурдаг. Хүнд жинтэй хүүхэд эргэж чадахгүй байх тохиолдолд байх ба гар хөлөө чөлөөтэй
+хөдөлгөж байвал санаа зовох асуудалгүй."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Амьдралын хэв маяг"
+                android:textSize="18dp"
+                android:background="@color/colorAccent"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Нэмэлт хоолонд орж эхэлнэ
+5-6 сартай үеэс нэмэлт хоолонд оруулж эхэлнэ. Өдөрт нэг удаа хооллохоос эхлэн бага багаар дасгаж оруулна.
+Дургүйцэхгүй байвал хэмжээ болон орцыг нэмж өгөөрэй. Нэмэлт хоолонд орсноос хойш нэг сар орчмын дараагаас
+хүүхдээ ажиглангаа өдөрт 2 удаа нэмэлт хоолыг өгнө. Нэмэлт хоол өгч эхлэхтэй зэрэгцэн хөхөө хүүхдийн хүссэн
+хэмжээгээр хөхүүлээрэй."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сэтгэл санаа"
+                android:textSize="18dp"
+                android:background="@color/colorAccent"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Мэдрэмж, хэрэгцээгээ тодорхой илэрхийлж чаддаг болно
+Ээжийгээ байхгүй үед гуниглаж, уйлагнан, дуу гаргаж дууддаг болно. Тэврүүлмээр авхуулмаар үедээ дуу гаргаж
+илэрхийлдэг болно. Санах ой болон анхаарал төвлөрүүлэх чадвартай болж, дуу гаргахад ээж нь хүрч ирдэг гэдгийг
+мэддэг болж, өөрийнхөө санаснаар зорилготойгоор дуу гаргадаг болно."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

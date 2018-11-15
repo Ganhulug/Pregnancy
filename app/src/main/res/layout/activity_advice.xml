@@ -4,43 +4,138 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".Advice_activity">
 
-
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="650dp"
-
+        android:layout_height="0dp"
+        android:layout_weight=".85"
         android:background="#FFFF">
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="1. Бие давхар эмэгтэйчүүдэд  хамгийн түрүүнд хориглох зүйл бол согтууруулах ундаа юм. Зарим эхчүүд хааяа нэг хундага вино юм уу шар айраг уухад зохимжтой гэдэг. Тэгвэл энэ нь ташаа ойлголт бөгөөд 100 гр архи ч урагт муугаар нөлөөлдөг.  Их хэмжээний спиртлэг ундаа нь сэтгэц оюун ухааны болон бие эрхтний ноцтой гажигийг үүсгэдэг байна.
-\n2. Дэлхийн эрүүл мэндийн байгууллагаас жирэмсэн эхчүүдийг өдөрт 60 мг төмрий бэлдмэл хэрэглэхийг зөвлөдөг. Энэ нь ургийн хөгжлийг тэтгэдэг бөгөөд бага жинтэй төрөхөөс сэргийлнэ.
-\n3. Хүнд зүйл өргөхгүй байх. Жирэмсэн эмэгтэйчүүдийн гэмтэл, тэр дундаа зулбалтаар төгссөн эмгэнэлт үр дагаварын 61.4 хувь нь хүнс дүүрэн цүнхтэй явж байхдаа унаж бэртэх, хальтарч ойчсоноос болдог нь тогтоогджээ.
-\n4. Хөлний оёдлын машин дээр юм оёх, морь, дугуй унах, хүнд хэцүү биеийн дасгал хийх, спортоор хичээллэх, үсрэх, огцом хөдөлгөөн хийх зэргийг хориглодог.
-\n5. Жирэмсний явцад хөдөлгөөнөө эрс багасгах, өдрийн туршид хэвтэх нь эмэгтэй эрүүл мэнд, урагт муу нөлөөтэй. Наад зах нь уураг гэдсэндээ таргалж, төрөхөд хүндрэл үүснэ. Мөн эмэгтэй болон өсч буй урагт хангалттай хэмжээний хүчилтөрөгч шаардлагатай байдаг. Харин хөдөлгөөн багатай байх нь бие организмд хүчилтөрөгч орж ирэхэд саад болно. (Эрүүл агаарт гарах, явган явах, өрөө тасалгаандаа салхи оруулах гэх мэт).
-\n6. Стресс бухимдал үүсгэх хүчин зүйлээс зайлс хийх. Ноцтой гэмт хэргийн тухай мэдээлэл үзэхгүй, нарийвчилсан деталийг нь сонсохгүй байх хэрэгтэй. Энэ нь хэвлий дэх ургийг тайван боловсорч хөгжихөд тустай юм.
-\n7. Жирэмсэн эхийн сэтгэл санааны тогтворгүй байдал нь хүүхдийн сэтгэцийн байдалд муугаар нөлөөлнө.  Жирэмсэн эх ямар нэгэн зүйлд санаа зовних, сэтгэл догдлох зэргээр стресст ороход түүний тархи, зүрх, булчинд цусан хангамж ихэсдэг. Ингэснээр эхийн announcing_pregnancyумайд очих цус багасч ураг хүчилтөрөгч, тэжээлэлг бодисоор дутагдаж өсөлт хөгжилт нь саатах бөгөөд стрессийн үеэр их хэмжээгээр ялгарсан даавар хүүхдэд муугаар нөлөөлнө.
-\n8. Мөөгөнцөр нь нярай хүүхдийн төрөлхийн нүдний үрэвсэл, хатгаа өвчинг үүсгэх ба төрөнгүүт эндэж болзошгүй. Төрөлхийн тэмбүүтэй хүүхэд зүрхний гажиг, ясны хэлбэр дүрс алдагдах, бусад эрхтэн тогтолцооны өвчинтэй төрнө. Ер нь БЗХӨ-өөс сэргийлснээр эмэгтэй та ирээдүйд төрөх бяцхан үрээ хамгаалж байна гэсэн үг.
-\n9. Цай, кофе, шоколад, хийтэй чихэрлэг ундаа нь бүрэлдэж буй хүүхдэд хортой нөлөөтэй.  Судалгаагаар кофейн бодис нь төрөлтийн эмгэгийг үүсгэдэг болох нь тогтоогджээ. Тиймээс жирэмсэн байх үедээ дээрх зүйлсийг бага хэмжээгээр хэрэглэх, эсвэл бүр мөсөн хэрэглэхгүй байх нь зүйтэй. Нэмж хэлэхэд чихэр, ундаа хэрэглэснээр хэрэгцээтэй хоол хүнсээ идэхийн оронд хэрэгцээ багатай хүнсэнд хоосон цадаж улмаар эх хүүхдийн эрүүл мэндэд муугаар нөлөөлнө.
-\n10. Хоол хүнсэндээ төмөр, кальци агуулсан бүтээгдэхүүн ихээр хэрэглэх. Yүнд: үхэр, хонины мах, элэг, загас, сүү, цагаан идээ, аарц, өндөг, вандуй, самар гэх мэт хүнсний бүтээгдэхүүнүүд орно."/>
+            android:orientation="vertical">
 
-        </RelativeLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_background"
+                android:text="Ээж болох бэлтгэл"
+                android:onClick="openEej"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/beltgel"
+                />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/set_background"
+                android:text="Жирэмсэний үе"
+                android:onClick="openJiremsnii_ve"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/eej"
+                />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_background"
+                android:text="0-2 сартай үе"
+                android:onClick="openTwoMonth"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/two"
+                />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_background"
+                android:text="3-4 сартай үе"
+                android:onClick="openFourMonth"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/four"
+                />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_background"
+                android:text="5-7 сартай үе"
+                android:onClick="openSevenMonth"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/seven"
+                />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_background"
+                android:text="8-9 сартай үе"
+                android:onClick="openNinthMonth"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nine"
+                />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_background"
+                android:text="1 настай үе"
+                android:onClick="openOneAge"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/one"
+                />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_background"
+                android:text="Хүүхэд асаргааны зөвлөгөө"
+                android:onClick="openAsargaa"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/asargaa"
+                />
+        </LinearLayout>
     </ScrollView>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
         android:orientation="vertical"
         android:background="#FFFF">
         <ImageView
@@ -83,6 +178,7 @@
                 android:src="@drawable/ic_more"
                 android:onClick="openMore"/>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -114,4 +210,5 @@
                 android:textSize="15dp"/>
         </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>

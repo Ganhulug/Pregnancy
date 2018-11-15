@@ -18,5 +18,17 @@
         <activity android:name=".Calendar_activity"/>
         <activity android:name=".Advice_activity"/>
         <activity android:name=".More_activity"/>
+        <activity android:name=".eej_activity"/>
+        <activity android:name=".JiremseniiVe_activity"/>
+        <activity android:name=".HoyrSar_activity"/>
+        <activity android:name=".DorwonSar_activity"/>
+        <activity android:name=".DoloonSar_activity"/>
+        <activity android:name=".EsonSar_activity"/>
+        <activity android:name=".NegNas_activity"/>
+        <activity android:name=".AsargaaniiZowlogoo_activity"/>
+        <activity android:name=".Lesson1_activity"/>
+        <activity android:name=".FourText_activity"/>
+        <activity android:name=".SevenText_activity"/>
+        <activity android:name=".NineText_activity"/>
     </application>
 </manifest>

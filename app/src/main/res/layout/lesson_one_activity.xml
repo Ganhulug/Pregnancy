@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Бие бялдар"
+                android:textSize="18dp"
+                android:background="@color/colorAccent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Энэ үед нярай үргэлж унтаад байдаггүй\n
+Шинээр мэндэлсэн нярай нь гар хөлөө хөдөлгөдөг ч  гэсэн өөрийн санаснаараа хараахан хөдөлгөж чадахгүй. Тархи
+болон мэдрэлийн системийн хөгжлөөс шалтгаалж аажим аажимаар өөрөө хөдөлгөж сурдаг.
+Толгойгоо хараахан дааж сураагүй байна
+Дөнгөж төрсөн хүүхдийн хүзүүний яс, булчин бэхжээгүй сул байдаг учраас энэ үед хүүхдээ хэвтүүлж тэвэрч байх
+нь чухал. 2 сартай болох үед бага багаар хүзүүний яс бэхжиж толгойгоо даахуйц болдог.
+Сонсох чадвар сайтай байдаг бол харааны чадвар бүрэн гүйцэт хөгжөөгүй байна.
+Хүүхэд гэдсэнд байх хугацаандаа дуу чимээг ялган сонсож сурдаг ба төрсний дараа сонсгол сайн байдаг
+буюу сайн сонсож чаддаг. Харин харах чадвар нь 0,02 зэргийн ойрын харааны төвшинд байдаг ба 30 см-ын
+зайд хардаг. Энэ нь хөхөж байх үедээ ээжийгээ харах хэмжээ гэсэн үг юм. Чимээ гарсан зүгт аажим аажимаар
+дагуулж харж сурдаг."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Амьдралын хэв маяг"
+                android:textSize="18dp"
+                android:background="@color/colorAccent"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Хөхөө хөхөөд, унтах гэсэн давтамжтай үе\n
+Шинээр мэндэлсэн нярай нь өдөр, шөнө ялгаагүй өлссөн үедээ сэрж уйлан хөхөө хөхөж, эргэн унтах маягаар
+өдрийн ихэнх цагийг унтаж өнгөөрөөдөг. Ээжийн хувьд шөнө сэрж хөхүүлдэг учраас нойр дутмаг байх үе юм. 2
+сартай болох үед аажим аажимаар удаан хугацаагаар унтдаг болдог"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сэтгэл санаа"
+                android:textSize="18dp"
+                android:background="@color/colorAccent"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Уйлах нь хүүхэд өөрийгөө илэрхийлж байгаа хэлбэр юм\n
+Хүүхэд өлсөх, халууцах, даарах, живх норох зэрэг таагүй мэдрэмжүүдээ уйлж илэрхийлдэг. Таагүй мэдрэмж
+-Уйлах-Асрах-Тайвшрах эдгээрийн давтамжаар нярай өсөж бойждог. 2 сартай үедээ эхрлүүлэхэд инээмсэглэдэг
+болно. Сайхан ааштай үедээ аа, үү гэх мэт авиа гарагадаг."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

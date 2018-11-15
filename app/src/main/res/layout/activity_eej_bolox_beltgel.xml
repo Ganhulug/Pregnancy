@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Жирэмслэлтийн талаарх ерөнхий мэдээлэл"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:gravity="center"
+            />
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_background"
+                android:text="Хичээл 1: Жирэмслэх механиз"
+                android:drawableRight="@drawable/ic_arrow_next"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_background"
+                android:text="Хичээл2: Жирэмслэхгүй байгаа шалтгаан"
+                android:drawableRight="@drawable/ic_arrow_next"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_background"
+                android:text="Хичээл3: Жирэмслэхгүй байгаа шалтгаан"
+                android:drawableRight="@drawable/ic_arrow_next"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_background"
+                android:text="Хичээл4: Жирэмслэлтийг тойрсон арга"
+                android:drawableRight="@drawable/ic_arrow_next"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_background"
+                android:drawableRight="@drawable/ic_arrow_next"
+                android:text="Хичээл5: Үргүйдэлийн эмчилгээг эхлүүлэх"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_background"
+                android:text="Хичээл6: Жирэмсэлхээр тооцоолсон"
+                android:drawableRight="@drawable/ic_arrow_next"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_background"
+                android:text="Хичээл7: Жирэмсэний анхан шинж тэмдэг"
+                android:drawableRight="@drawable/ic_arrow_next" />
+    </LinearLayout>
+</RelativeLayout>
